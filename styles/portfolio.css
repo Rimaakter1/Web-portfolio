@@ -1,0 +1,253 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/* shared styles */
+.text-center {
+    text-align: center;
+}
+
+.secondary-bg {
+    background-color: rgb(255, 248, 243);
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.dark-2 {
+    color: #474747;
+}
+
+.btn-primary {
+    background-color: rgb(253, 110, 10);
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: none;
+}
+
+.section-title {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 30px;
+}
+
+.section-description {
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+/* header styles  */
+.header {
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    object-fit: cover;
+    height: calc(100vh + 220px);
+}
+
+/* nav styles  */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+    padding-top: 50px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 48px;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+
+.banner-content {
+    max-width: 530px;
+    margin-top: 150px;
+}
+
+.banner-greetings {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.banner-title {
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.banner-description {
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    margin-bottom: 50px;
+}
+
+.contact-btn {
+    color: rgb(253, 110, 10);
+    font-weight: bold;
+    font-size: 20px;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: 1px solid rgb(253, 110, 10);
+    border-radius: 5px;
+    background-color: white;
+}
+
+.banner-profile-pic {
+    height: 600px;
+    margin-top: 55px;
+}
+
+/* main styles  */
+
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* about styles  */
+
+.about {
+    border-radius: 10px;
+    padding: 100px 130px;
+    margin-top: 130px;
+    text-align: center;
+}
+
+.about-container {
+    background-color: rgb(255, 255, 255);
+}
+
+.about-content {
+    padding: 40px;
+}
+
+.about-items {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.item-description {
+    font-weight: 600;
+}
+
+/* skills-section styles  */
+.skills {
+    margin-top: 100px;
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+    margin-top: 50px;
+    margin-bottom: 120px;
+}
+
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(60, 60, 60, 0.306);
+}
+
+
+/* resume section style  */
+.resume-container {
+    display: flex;
+    gap: 24px;
+    margin-top: 80px;
+}
+
+
+
+.experience-subtitle {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.experience-description,
+.experience-subtitle {
+    color: #757575
+}
+
+.resume h3,
+.resume-column h3 {
+    margin-bottom: 40px;
+}
+
+.resume hr {
+    margin: 30px 20px 30px 0px;
+}
+
+.resume-download-cv {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+
+/* footer  */
+
+footer {
+    padding: 80px 180px;
+    display: flex;
+    gap: 100px;
+
+}
+
+.footer-column {
+    width: 50%;
+}
+
+footer input[type="text"],
+footer input[type="email"],
+footer textarea {
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 20px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
